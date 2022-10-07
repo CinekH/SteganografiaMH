@@ -1,0 +1,14 @@
+export const AUTH = 'AUTH';
+export const LOGOUT = 'LOGOUT';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const ACTIVATE_ACCOUNT = 'ACTIVATE_ACCOUNT';
+export const ACTIVATE_ERROR = 'ACTIVATE_ERROR';
+export const USER_REGISTERED = 'USER_REGISTERED';
+export const MESSAGE_CLEAR = 'MESSAGE_CLEAR';
+export const SET_MESSAGE = 'SET_MESSAGE';
+export const SET_IMAGE = 'SET_IMAGE';
+export const SET_DATA = 'SET_DATA';
+export const SET_DECODED_DATA = 'SET_DECODED_DATA';
+export const SET_GALLERY = 'SET_GALLERY';
+export const SET_USER_IMAGES = 'SET_USER_IMAGES';
+export const DELETE_IMAGE = 'DELETE IMAGE';

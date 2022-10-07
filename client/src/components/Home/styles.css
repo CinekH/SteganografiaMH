@@ -1,0 +1,26 @@
+.home-link:hover {
+    cursor: pointer;    
+}
+
+
+.home-link path {
+    stroke-width: 0.3;
+    stroke: black;
+}
+
+.home-link path:hover {
+    opacity: 0.6;
+}
+
+
+.home-link:focus {
+    outline: none;
+}
+
+.home-link:focus path {
+    opacity: 0.6;
+    stroke: white;
+    stroke-width: 1;
+    z-index: 105;
+    filter: blur(0.5px);
+}

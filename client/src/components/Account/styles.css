@@ -1,0 +1,15 @@
+.account-container {
+    margin-top:7em;
+}
+
+.account-image {
+    border-radius:1em;
+    border: 2px solid white;
+    box-shadow: 0 0 7px 1px white;
+    max-width: 100%;
+    max-height: 25vh;
+}
+
+.btn-120px {
+    width: 120px !important;
+}

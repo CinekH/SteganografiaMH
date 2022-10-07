@@ -1,0 +1,184 @@
+.mail-send-error {
+    width: fit-content;
+    background-color: #cc0000;
+    padding: 0.15em 1em 0.3em 1em;
+    border: 1px solid black;
+    color: white !important;
+    border-radius: 0.5em;
+    margin: 0;
+}
+
+.send-mail-input {
+    box-shadow: 0 0 0 2px white;
+}
+
+.email-send-error-container {
+    height: 2em;
+    margin-top: 0.15em
+}
+
+.mail-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.mail-container {
+    margin-top: 9vh;
+    left: 0;
+    right: 0;
+    background-color: #22c;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 1em black;
+    max-width: 1000px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.mail-top {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.mail-send-exit {
+    width: 4em;
+    height: 100%;
+    background-color: black;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.mail-send-exit:hover {
+    background-color: #00c;
+}
+
+.mail-send-exit-image {
+    height: 100%;
+    margin-left: 0.7em;
+    background-image: url('../../images/x.png');
+    background-position-y: center;
+    background-size: 2.7em;
+    background-repeat: no-repeat;
+}
+
+.mail-content-container {
+    overflow-y: scroll;
+    max-height: 80vh;
+    overflow-x: hidden;
+    padding-top: 1em;
+    scrollbar-color: #000 #33f;
+}
+
+.mail-content {
+    margin: 0 2em !important;
+}
+
+.fill-field-with-mail {
+    max-width: fit-content;
+    padding: 0 !important;
+}
+
+.fill-field-with-mail button {
+    background-color: transparent;
+    margin: 2.1em 0 0 0;
+    vertical-align: middle;
+    border: none;
+    padding: 0 !important;
+    transition: 100ms;
+    box-shadow: none;
+}
+
+.spinners-border {
+    display: flex;
+}
+
+.fill-field-with-mail button:hover {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.fill-field-with-mail button:focus {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.fill-field-with-mail button:active {
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+.fill-field-icon {
+    width: 100%;
+    height: 2em;
+}
+
+.gallery {
+    position: fixed;
+    right: 5%;
+    top: 10%;
+    padding-bottom: 3em;
+    width: 90%;
+    background-color: #3333ff;
+    z-index: 100;
+    border: none;
+}
+
+.gallery-image {
+    z-index: -1;
+    position: relative;
+    border-radius: 1em;
+}
+
+.gallery-image-a {
+    box-shadow: 0px 0px 6px 2px #000000;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: 100ms;
+    border-radius: 1em;
+}
+
+.gallery-image-a:hover, .gallery-image-a:focus {
+    box-shadow: inset 0px 0px 10px 4px #33f, 0px 0px 6px 2px #000000;
+}
+
+.gallery-top {
+    height: 2.3em;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.gallery-bottom {
+    text-align: center;
+    height: fit-content;
+    border-top: 2px solid black;
+}
+
+.gallery-bottom a {
+    color: white !important;
+}
+
+.gallery-content {
+    overflow-y: scroll;
+    scrollbar-color: #000 #33f;
+    padding: 1em 2em 1em 2em;
+    max-height: 70vh;
+    background-color: white;
+    position: relative;
+    z-index: -2;
+}

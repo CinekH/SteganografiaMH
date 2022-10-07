@@ -1,0 +1,49 @@
+.navbar-top {
+    background-color: rgba(55,55,255,.5);
+    
+}
+.navbar-border {
+    height: 1px;
+    background-color: #2929ff;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 3px 4px #2929ff;
+    box-shadow: 0px 2px 3px 4px #2929ff;
+}
+.navbar-link-active {
+    text-shadow: #fff 1px 1px 10px;
+}
+
+.brand-link:focus img {
+    outline: 2px solid red;
+}
+
+.brand-link:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: 2px solid red;
+}
+
+.brand-logo {
+    position: fixed;
+    top: 0.1em;
+    left: 1em;
+    width: 190px;
+}
+
+.brand-container {
+    width: 190px;
+}
+
+.top-navbar-dropdown div {
+    background-color: rgba(55,55,255,.4);
+    border: 1px solid #2929ff;
+    left: -3em !important;
+    width: fit-content;
+}
+
+.dropdown-nav-link {
+    margin-left: 1em;
+    margin-right: 1em;
+}

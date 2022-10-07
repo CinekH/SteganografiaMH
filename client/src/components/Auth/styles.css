@@ -1,0 +1,27 @@
+.auth-container {
+    margin-top: 7em;
+}
+
+.show-password {
+    position: relative !important;
+    float: right;
+    right: 1.8em;
+    top: -1.95em;
+    cursor: pointer;
+}
+
+.or-line {
+    height:1px;
+    background-color:#777;
+}
+
+.or-text {
+    color: #777;
+}
+
+.login-content {
+    background-color: white !important;
+    padding: 3em;
+    border-radius: 3em;
+    box-shadow: inset 0 0 1em #000;
+}
